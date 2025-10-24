@@ -1,1 +1,17 @@
 @import url("reset.css");
+
+
+
+.project-list-grid {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.project-item .item-link {
+    display: flex;
+    flex-direction: row; 
+}
