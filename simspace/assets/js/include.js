@@ -12,6 +12,6 @@ function includeHTML(elementId, filePath) {
 }
 
 // 각 파일을 원하는 위치에 포함 (경로 확인 필수!)
-includeHTML("header-container", "/simspace/html/common/header.html");
-includeHTML("content-container", "/simspace/content.html");
-includeHTML("footer-container", "/simspace/html/common/footer.html");
+includeHTML("header-container", "html/common/header.html");
+includeHTML("content-container", "content.html");
+includeHTML("footer-container", "html/common/footer.html");
